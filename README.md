@@ -1,5 +1,5 @@
-# physpatch
-The official implementation of PhysPatch; this paper was accepted by AAAI 2026.
+# PhysPatch: A Physically Realizable and Transferable Adversarial Patch Attack for Multimodal Large Language Models-based Autonomous Driving Systems
+The official implementation of (PhysPatch)[https://arxiv.org/abs/2508.05167]; this paper was accepted by AAAI 2026.
 
 @article{guo2025physpatch,
   title={PhysPatch: A Physically Realizable and Transferable Adversarial Patch Attack for Multimodal Large Language Models-based Autonomous Driving Systems},
