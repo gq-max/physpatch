@@ -2,6 +2,9 @@
 
 The official implementation of [PhysPatch](https://arxiv.org/abs/2508.05167); this paper was accepted by AAAI 2026.
 
+## Code 
+Please refer to code/readme.md
+
 ## Citation
 ```
 @article{guo2025physpatch,
