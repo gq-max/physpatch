@@ -7,10 +7,16 @@ Please refer to code/readme.md
 
 ## Citation
 ```
-@article{guo2025physpatch,
-  title={PhysPatch: A Physically Realizable and Transferable Adversarial Patch Attack for Multimodal Large Language Models-based Autonomous Driving Systems},
-  author={Guo, Qi and Jia, Xiaojun and Pang, Shanmin and Qin, Simeng and Wang, Lin and Jia, Ju and Liu, Yang and Guo, Qing},
-  journal={arXiv preprint arXiv:2508.05167},
-  year={2025}
+@article{Guo2026PhysPatch,
+  author  = {Qi Guo and Xiaojun Jia and Shanmin Pang and Simeng Qin and Lin Wang and Ju Jia and Yang Liu and Qing Guo},
+  title   = {PhysPatch: A Physically Realizable and Transferable Adversarial Patch Attack for Multimodal Large Language Models-based Autonomous Driving Systems},
+  journal = {Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume  = {40},
+  number  = {6},
+  pages   = {4412--4420},
+  year    = {2026},
+  month   = mar,
+  doi     = {10.1609/aaai.v40i6.42439},
+  url     = {https://ojs.aaai.org/index.php/AAAI/article/view/42439}
 }
 ```
