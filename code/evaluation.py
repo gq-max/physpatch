@@ -30,6 +30,7 @@ class GPTScorer:
             openai.api_base = api_base
 
     def compute_similarity(self, input_text: str, reference_text: str, max_retries: int = 5) -> float:
+        '''This is a general prompt; for different tasks (such as stop signs, crosswalks, etc.), specific examples need to be included.'''
         prompt = f"""Rate the semantic similarity between the following two texts on a scale from 0 to 1.
 
 **Criteria for similarity measurement:**
