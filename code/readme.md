@@ -10,6 +10,7 @@ python dataset.py
 ./nuscenes/samples
 
 ## 2.Generate placement coordinates
+**This step is crucial; the chosen initial position significantly influences the attack capability of the patch. Factors such as variations in texture across different locations and the differing probabilities of specific areas being included during random cropping both affect the patch's effectiveness. Therefore, a robust model should be employed to determine the initial position. Providing the model with a few examples can further improve the results.**
 #### 2.1 Generate som and sam_label
 
 cd SoM
@@ -64,3 +65,5 @@ python evaluation.py \
   --start 0 \
   --end 1000 \
   --api_key sk-xxx
+  
+Note: The current evaluation is a generic consistency assessment. For this task, you need to incorporate specific examples to guide the model toward a more accurate evaluation. For instance, in the case of a "stop sign," you should provide the model with the following examples: a description consisting solely of a "stop sign" is assigned a score of 1; descriptions that include other elements are assigned 0.7–0.8; those containing the word "STOP" are assigned 0.5; descriptions identifying it as a "red sign" are assigned 0.3; other traffic-related signs or signals (such as traffic lights or crosswalks) are assigned 0.1–0.2; and anything unrelated to traffic signs is assigned 0.
